@@ -6,27 +6,42 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tin's Page</title>
+  <style> .content {
+ margin: auto;
+}
+.fix{
+  position:fixed;
+  bottom:0px;
+  left:0%;}
+  </style>
 </head>
 
-<style> .content {
- margin: auto;
 
-}
-</style>
 
-<embed src="sounds/Breathe.mp3" loop="true" autostart="true" width=1 height=1>
+
   
 <body background="images/lava.jpeg"> 
+
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
   <div class="content">
     <img src="images/tins page.png" width=50%>
-
+<embed src="sounds/Breathe.mp3" loop="true" autostart="true" width=1 height=1>
  
 
   <img src="images/frog.gif" align="right" width=250>
   <img src="images/peanuts.gif" align="left" width= 250>
 
   <div class="container">
-    <iframe frameborder="0" class="responsive-iframe" src="home.html" width=1000 height=500 margin></iframe>
+    <iframe frameborder="0" class="responsive-iframe" src="home.html" width=1200 height=500 margin="auto"></iframe>
 
     
   </div>
@@ -35,11 +50,7 @@
     
     </script>
   
-  <style>.fix{
-    position:fixed;
-    bottom:0px;
-    left:0%;}
-    </style>
+  
   <img src="/images/fire.gif" alt="fire gif" class="fix" height=40% width=100%>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
